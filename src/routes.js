@@ -54,17 +54,19 @@ const Routes = createAppContainer(createMaterialTopTabNavigator({
         showLabel: false,
         showIcon: true,
         activeTintColor: '#1778f2',
-        inactiveTintColor: '#ccc',
-        activeBackgroundColor: '#ccc',
-        pressColor: '#ccc',
+        inactiveTintColor: '#777',
+        activeBackgroundColor: '#777',
+        pressColor: '#777',
         indicatorStyle:{
             backgroundColor: '#1778f2'
         },
         style:{
             backgroundColor: "#fff",
             elevation: 0,
-            height: 60,
+            height: 50,
             justifyContent: 'center',
+            borderBottomColor: '#ccc',
+            borderBottomWidth:1
         }
 
     },

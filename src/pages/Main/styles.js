@@ -7,7 +7,6 @@ export const Container = styled.View`
 
 export const BoxStatus = styled.View`
     width: 100%;
-    height: 80px;
     padding: 10px;
     font-family: 'Roboto';
     flex-direction: row;
@@ -15,8 +14,6 @@ export const BoxStatus = styled.View`
     align-items: center;
     border-bottom-color: #ccc;
     border-bottom-width: 1px;
-    border-top-color: #ccc;
-    border-top-width: 1px;
 `;
 
 
@@ -24,12 +21,12 @@ export const ImageProfile = styled.Image`
     width: 40px;
     height: 40px;
     border-radius:20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     margin-right: 10px;
 `;
 
 export const FieldStatus = styled.TextInput`
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 20px;
     height: 40px;
     font-size: 15px;
@@ -38,8 +35,8 @@ export const FieldStatus = styled.TextInput`
 `;
 
 export const BoxMedias = styled.View`
-    border-bottom-color: #ccc;
-    border-bottom-width: 6px;
+    border-bottom-color: #aaa;
+    border-bottom-width: 7px;
     flex-direction: row;
 `;
 

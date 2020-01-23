@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 
-import { View } from 'react-native';
-
-// import { Container } from './styles';
+import { Container, Title } from './styles';
+import Tags from '../../components/Tags';
+import Groups from '../../components/Groups';
 
 export default class Group extends Component {
   render() {
-    return <View />;
+    return (
+      <Container>
+        <Title>
+          Grupos
+        </Title>
+        <Tags />
+        <Groups />
+      </Container>
+    );
   }
 }
