@@ -181,12 +181,7 @@ export default class Content extends Component {
                                     {item.post.comments} comentários
                                 </Text>
                             </RowHeaderPost>
-                            <RowHeaderPost
-                                style={{
-                                    borderTopColor: '#ccc',
-                                    borderTopWidth: 1
-                                }}
-                            >
+                            <RowHeaderPost>
                                 <ButtonActionsPost
                                     text="Curtir"
                                     icon="thumbs-up"

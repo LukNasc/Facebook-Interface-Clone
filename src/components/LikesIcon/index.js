@@ -6,7 +6,7 @@ import { Container, Content } from './styles';
 const LikesIcon = () => (
     <Container>
         <Content>
-            <FontAwesome name="thumbs-up" size={10} color="#fff" />
+            <FontAwesome name="thumbs-up" size={10} color="#fff" solid/>
         </Content>
     </Container>
 );

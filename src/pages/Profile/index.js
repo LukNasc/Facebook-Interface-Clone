@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 
-import { View } from 'react-native';
-
-// import { Container } from './styles';
+import { Container, Banner } from './styles';
 
 export default class Profile extends Component {
   render() {
-    return <View />;
+    return (
+      <Container>
+        <Banner
+          imageStyle={{
+            borderRadius: 20
+          }}
+          style={{
+            backgroundColor: '#e4edf2'
+          }}
+        >
+
+        </Banner>
+      </Container>
+    );
   }
 }

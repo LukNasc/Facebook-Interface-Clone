@@ -14,7 +14,7 @@ export default class Groups extends Component {
         {
             id: 2,
             image: 'https://i.zst.com.br/images/as-5-melhores-bolas-de-futebol-para-comprar-em-2019-photo733682881-44-25-30.jpg',
-            name: 'Futebol'
+            name: 'Futebol com\n os Amigos'
         },
         {
             id: 3,

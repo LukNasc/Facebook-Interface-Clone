@@ -13,40 +13,40 @@ import Notification from './pages/Notification';
 import Options from './pages/Options';
 
 const Routes = createAppContainer(createMaterialTopTabNavigator({
-    Main:{
+    Main: {
         screen: Main,
-        navigationOptions:{
-            tabBarIcon:({tintColor}) => <MaterialIcon name="home"  size={25} color={tintColor}/>,
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <MaterialIcon name="home" size={25} color={tintColor} light />,
         }
     },
-    Group:{
+    Group: {
         screen: Group,
-        navigationOptions:{
-            tabBarIcon:( { tintColor } ) =>  <FontAwesome name="users" size={20} color={tintColor} />
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <FontAwesome name="users" size={20} color={tintColor} light />
         }
     },
-    Store:{
+    Store: {
         screen: Store,
-        navigationOptions:{
-            tabBarIcon:( { tintColor } ) => <FontAwesome name="store" size={20} color={tintColor} />
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <FontAwesome name="store" size={20} color={tintColor} light />
         }
     },
-    Profile:{
+    Profile: {
         screen: Profile,
-        navigationOptions:{
-            tabBarIcon:({tintColor}) => <FontAwesome name="user-alt" size={20} color={tintColor} />
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <FontAwesome name="user-alt" size={20} color={tintColor} light />
         }
     },
-    Notification:{
+    Notification: {
         screen: Notification,
-        navigationOptions:{
-            tabBarIcon: ({tintColor}) => <FontAwesome name="bell" size={20} color={tintColor} />
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <FontAwesome name="bell" size={20} color={tintColor} solid />
         }
     },
-    Options:{
+    Options: {
         screen: Options,
-        navigationOptions:{
-            tabBarIcon: ({tintColor}) => <FontAwesome name="bars" size={20} color={tintColor} /> 
+        navigationOptions: {
+            tabBarIcon: ({ tintColor }) => <FontAwesome name="bars" size={20} color={tintColor} light />
         }
     }
 }, {
@@ -57,16 +57,16 @@ const Routes = createAppContainer(createMaterialTopTabNavigator({
         inactiveTintColor: '#777',
         activeBackgroundColor: '#777',
         pressColor: '#777',
-        indicatorStyle:{
+        indicatorStyle: {
             backgroundColor: '#1778f2'
         },
-        style:{
+        style: {
             backgroundColor: "#fff",
             elevation: 0,
             height: 50,
             justifyContent: 'center',
             borderBottomColor: '#ccc',
-            borderBottomWidth:1
+            borderBottomWidth: 1
         }
 
     },

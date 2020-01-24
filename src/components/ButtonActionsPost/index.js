@@ -9,7 +9,7 @@ const ButtonActionsPost = ({ text, icon = "" }) => (
     <Container>
         <Button underlayColor="#eee" onPress={()=>{}}>
             <>
-                <FontAwesome name={icon} size={20} color='#ccc' />
+                <FontAwesome name={icon} size={20} color='#ccc' solid/>
                 <Text>
                     {text}
                 </Text>

@@ -5,7 +5,7 @@ export const Container = styled.View`
 `;
 
 export const BoxTag = styled.View`
-    background-color: #ccc;
+    background-color: #eee;
     padding: 10px;
     border-radius: 20px;
     margin: 5px;

@@ -5,23 +5,7 @@ import { Container, BoxTag, Bold } from './styles';
 
 export default class Tags extends Component {
     state = {
-        data: [{
-            id: 1,
-            tag: 'Seus Grupos',
-            icon: 'users'
-        }, {
-            id: 2,
-            tag: 'Descoberta',
-            icon: 'compass'
-        }, {
-            id: 3,
-            tag: 'Criar',
-            icon: 'plus'
-        }, {
-            id: 4,
-            tag: 'Configurações',
-            icon: 'cog'
-        }]
+        data: this.props.tags
     }
     render() {
         return (
@@ -38,8 +22,10 @@ export default class Tags extends Component {
                                 :
                                 {}
                         }>
-                            <FontAwesome name={item.icon} size={15} color="black" style={{ marginRight: 5 }} />
-                            <Text><Bold>{item.tag}</Bold></Text>
+                            <FontAwesome name={item.icon} size={15} color="black" style={{ marginRight: 5 }} solid />
+                            {
+                                item.tag ? (<Text><Bold>{item.tag}</Bold></Text>) : (null)
+                            }
                         </BoxTag>
                     )}
                 />
